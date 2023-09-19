@@ -1,0 +1,24 @@
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+.child-div:first-child{
+    background-image: url(/Assets/sharwama.jpg);
+    background-size: cover;
+}
+
+.child-div:nth-child(2){
+    background-image: url(/Assets/rolls.jpg);
+    background-size: cover;
+}
+
+.child-div:nth-child(3) {
+    background-image: url(/Assets/spag.jpg);
+    background-size: cover;
+}
+
+.child-div:nth-child(4) {
+    background-image: url(/Assets/buns.jpg);
+    background-size: cover;
+}

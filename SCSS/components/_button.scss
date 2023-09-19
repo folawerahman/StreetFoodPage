@@ -1,0 +1,10 @@
+.header__3 .button, .full_menu{
+  background-color: $bg-clr;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+
+  &:hover { background: $butn-hover}
+}
+

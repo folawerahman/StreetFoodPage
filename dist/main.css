@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; }
+
+input, button, textarea, select {
+  font: inherit; }
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word; }
+
+.header__3 .button, .full_menu {
+  background-color: #706d6a84;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase; }
+  .header__3 .button:hover, .full_menu:hover {
+    background: #97918c; }
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%; }
+
+.child-div:first-child {
+  background-image: url(/Assets/sharwama.jpg);
+  background-size: cover; }
+
+.child-div:nth-child(2) {
+  background-image: url(/Assets/rolls.jpg);
+  background-size: cover; }
+
+.child-div:nth-child(3) {
+  background-image: url(/Assets/spag.jpg);
+  background-size: cover; }
+
+.child-div:nth-child(4) {
+  background-image: url(/Assets/buns.jpg);
+  background-size: cover; }
+
+footer p {
+  margin: 0;
+  padding: 1.2rem;
+  background: #9e9d8e;
+  text-align: center;
+  font-weight: bold; }
+
+/*Food Grid*/
+.parent-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 1rem; }
+
+.main {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1200px; }
+
+main .lorem {
+  display: flex;
+  align-items: center; }
+
+.Lorem_text-align {
+  margin: 20px;
+  border: 1px solid; }
+  .Lorem_text-align h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 30px; }
+  .Lorem_text-align p {
+    padding-bottom: 35px; }
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #e3e3e2;
+  padding-block: 0.5rem;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  position: fixed;
+  box-shadow: -21.213px 21.213px 30px 0px #65656599; }
+
+.header img {
+  width: 5.5rem;
+  border-radius: 10rem;
+  border: 2px dotted #f88d01; }
+
+.header__2, a {
+  display: flex;
+  gap: 34px;
+  padding: 5px;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: black; }
+  .header__2:hover, a:hover {
+    color: #706d6a84; }
